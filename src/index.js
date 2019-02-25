@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import QuoteBox from "./Components/QuoteBox";
 
 import "./styles.css";
 
@@ -11,7 +12,13 @@ class App extends Component {
     };
   }
   render() {
-    return <div>Hello world!</div>;
+    return (
+      <div>
+        <div id="quote-box">
+          <QuoteBox />
+        </div>
+      </div>
+    );
   }
 }
 
