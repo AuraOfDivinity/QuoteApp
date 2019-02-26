@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class QuoteBox extends Component {
   render() {
-    return <div>Hello world!</div>;
+    return <div>{this.props.Quotes}</div>;
   }
 }
 
